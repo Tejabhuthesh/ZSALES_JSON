@@ -1,0 +1,10 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="project2.controller.View1" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content><Button xmlns="sap.m" text="Next" id="button0" activeIcon="sap-icon://navigation-right-arrow" tooltip="Back" textDirection="RTL"/>
+            <BusyIndicator busy="true" busyIndicatorDelay="0" text="Please wait..." id="indicator0"/>
+            <ToggleButton xmlns="sap.m" text="Toggle Button" id="button1"/>
+        </content>
+    <headerContent>
+    </headerContent>
+    </Page>
+</mvc:View>
